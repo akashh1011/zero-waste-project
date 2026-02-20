@@ -170,7 +170,16 @@ Requests are rejected if coordinates fall outside India's bounding box:
 ##  Base URL
 
 ```
-http://localhost:9000
+If you are using PORT=8000 in env then, http://localhost:8000
+
+Deployed Base URL = https://zero-waste-project-1.onrender.com
+```
+
+##  Deployed URL of RENDOR
+
+```
+https://zero-waste-project-1.onrender.com
+
 ```
 
 ---
