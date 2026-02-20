@@ -44,7 +44,7 @@ const wasteEntrySchema = z.object({
 
   if (!isInsideIndia) {
     ctx.addIssue({
-      code: z.ZodIssueCode.custom,
+      code: z.invalid_type,
       message: "Invalid location: Service available only in India",
       path: ["location"],
     });
@@ -55,7 +55,7 @@ const wasteEntrySchema = z.object({
   const result = wasteEntrySchema.safeParse(req.body);
 
   if (!result.success) {
-    const errors = result.error.errors.map((err) => ({
+    const errors = result.error.issues.map((err) => ({
       field: err.path.join("."),
       message: err.message,
     }));
