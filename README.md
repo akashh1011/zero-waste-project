@@ -57,7 +57,7 @@ npm install
 Create a `.env` file in the root directory:
 
 ```env
-PORT=9000
+PORT=8000
 MONGODB_URI=your_mongodb_connection_string
 ```
 
@@ -67,7 +67,7 @@ MONGODB_URI=your_mongodb_connection_string
 npm start
 ```
 
-Server will run on `http://localhost:9000`
+Server will run on `http://localhost:8000`
 
 ---
 
@@ -181,6 +181,12 @@ Deployed Base URL = https://zero-waste-project-1.onrender.com
 https://zero-waste-project-1.onrender.com
 
 ```
+
+##  Video Link (Google Drive)
+
+https://drive.google.com/file/d/1ELX0ocjZJmgHe5rjrdJehfyVjoMNfUt_/view?usp=sharing
+
+
 
 ---
 
